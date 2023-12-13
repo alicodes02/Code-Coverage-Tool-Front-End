@@ -16,7 +16,7 @@ A simple code coverage tool which is built for automating white box testing for 
 # How to run this project?
 1. Clone this repository.
 2. In your terminal type "npm start" to start the project on your localhost.
-3. Now, clone the backend of this project https://github.com/alicodes02/SQE-Backend.git.
+3. Now, clone the backend of this project https://github.com/alicodes02/Code-Coverage-Tool-Back-End.git.
 4. Run the backend by running "npm start" command in the terminal.
 5. Now, you can send your code to the backend easily.
 6. View the test cases at backend in tests/generated-tests.spec.ts file.
