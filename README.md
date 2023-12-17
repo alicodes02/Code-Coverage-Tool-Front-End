@@ -1,70 +1,26 @@
-# Getting Started with Create React App
+# Code Coverage Tool For Typescript
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple code coverage tool which is built for automating white box testing for typescript codes. This is a basic tool which only works for simple typescript functions which have number, string, boolean and array as function parameteres.
 
-## Available Scripts
+# How the tool works?
+1. Paste your typescript code in the textbox.
+2. Click Submit button.
+3. A spinner will be displayed while the tool is generatig test cases and coverage report.
+4. After a while a download button will be displayed.
+5. Click the download button to download the coverage report(zip file).
+6. Locate the file in your downloads folder and unzip it.
+7. Inside the zip file go to lcov-report folder.
+8. Open index.html file to view the report.
+9. Click on code.ts to further expand the report and view which lines are executed and which are left unexecuted.
 
-In the project directory, you can run:
+# How to run this project?
+1. Clone this repository.
+2. In your terminal type "npm start" to start the project on your localhost.
+3. Now, clone the backend of this project https://github.com/alicodes02/Code-Coverage-Tool-Back-End.git.
+4. Run the backend by running "npm start" command in the terminal.
+5. Now, you can send your code to the backend easily.
+6. View the test cases at backend in tests/generated-tests.spec.ts file.
 
-### `npm start`
+## As this was a semester project, I'm looking forward to further improve it and any suggesstions or contributions are highly appreciated in this regard.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Thank you so much for visiting this repository, Have a great day :)
