@@ -18,6 +18,7 @@ function App() {
         method: 'POST',
         headers: {
           'Content-Type': 'text/plain',
+          'Origin': 'https://boisterous-clafoutis-c2169d.netlify.app',
         },
         body: code,
       });
