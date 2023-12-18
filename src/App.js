@@ -14,7 +14,7 @@ function App() {
     setSpinner(true);
 
     try {
-      const response = await fetch('https://cerulean-newt-fez.cyclic.app/generate-tests', {
+      const response = await fetch('code-coverage-tool-back-end-production.up.railway.app/generate-tests', {
         method: 'POST',
         headers: {
           'Content-Type': 'text/plain',
